@@ -1,5 +1,5 @@
 <template>
-  <div class="container text-white py-5">
+  <div class="container text-white py-0 py-sm-5">
     <div class="row p-5 bg-color">
       <div class="col col-12">
         <img src="../assets/images/what-is-gpt3/gradient-line.svg" alt="Line"/>

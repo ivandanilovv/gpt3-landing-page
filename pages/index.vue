@@ -2,8 +2,10 @@
   <div class="bg-custom-gradient">
     <hero-section/>
     <social-media-links/>
-    <what-is-g-p-t3/>
-    <the-future/>
+    <div class="bg-custom-gradient">
+      <what-is-g-p-t3/>
+      <the-future/>
+    </div>
   </div>
 </template>
 
