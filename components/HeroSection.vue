@@ -18,7 +18,7 @@
           <div class="d-flex flex-row">
             <input type="text" placeholder="Your Email Address" name="email"
                    class="w-65 ps-3 py-2 border-0 rounded-start input-bg-color p-custom-font"/>
-            <a href="#" class="btn bg-orange w-34 button-custom-font border-0 rounded-0 rounded-end">
+            <a href="#" class="btn bg-orange w-34 button-custom-font border-0 rounded-0 rounded-end button-hover">
               Get Started
             </a>
           </div>
@@ -85,6 +85,10 @@ export default {
   background-image: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.button-hover:hover {
+  background-color: #cc300e;
 }
 
 .bg-custom-gradient {

@@ -25,7 +25,7 @@
               <a href="#" class="btn text-white navbar-items-font">
                 Sign in
               </a>
-              <a href="#" class="btn sign-up-button text-white navbar-items-font pt-3 ms-0 ms-lg-3">
+              <a href="#" class="btn sign-up-button text-white navbar-items-font pt-3 ms-0 ms-lg-3 button-hover">
                 Sign up
               </a>
             </div>
@@ -82,6 +82,9 @@ export default {
   height: 58px;
 }
 
+.button-hover:hover {
+  background-color: #cc300e;
+}
 .navbar-nav {
   flex-direction: row;
 }
