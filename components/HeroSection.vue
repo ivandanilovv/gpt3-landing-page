@@ -4,12 +4,12 @@
     <div class="container text-white">
       <div class="row">
         <div class="col-12 col-xl-6 pt-5">
-          <h1 class="h1-custom-font-size text-gradient">
+          <h1 class="h1-custom-font-size text-gradient text-center text-md-start">
             Let’s Build Something
             amazing with GPT-3
             OpenAI
           </h1>
-          <p class="p-custom-font pt-5">
+          <p class="p-custom-font pt-5 text-center text-md-start">
             Yet bed any for travelling assistance indulgence unpleasing.<br/>
             Not thoughts all exercise blessing. Indulgence way<br/>
             everything joy alteration boisterous the attachment. Party<br/>
@@ -22,7 +22,7 @@
               Get Started
             </a>
           </div>
-          <div class="d-flex flex-row align-items-center justify-content-start pt-3">
+          <div class="d-flex flex-row align-items-center justify-content-center justify-content-md-start pt-3">
             <img src="../assets/images/hero-section/people.svg" alt="People" width="182" height="38"/>
             <p class="p-0 m-0 fs-7">
               1,600 people requested access a visit in last 24 hours
