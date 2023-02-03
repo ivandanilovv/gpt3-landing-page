@@ -4,7 +4,7 @@
     <div class="container text-white">
       <div class="row">
         <div class="col-12 col-xl-6 pt-5">
-          <h1 class="h1-custom-font-size">
+          <h1 class="h1-custom-font-size text-gradient">
             Let’s Build Something
             amazing with GPT-3
             OpenAI
@@ -77,5 +77,11 @@ export default {
 
 .fs-7 {
   font-size: 0.75rem;
+}
+
+.text-gradient {
+  background-image: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 </style>
