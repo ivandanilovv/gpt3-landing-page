@@ -1,5 +1,8 @@
 export default {
+  target: "static",
+
   // Global page headers: https://go.nuxtjs.dev/config-head
+
   head: {
     title: 'gpt3-landing-page',
     htmlAttrs: {
