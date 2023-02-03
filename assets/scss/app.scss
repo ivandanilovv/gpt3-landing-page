@@ -3,3 +3,11 @@
 .custom-bg-color {
   background-color: #050d18;
 }
+
+.bg-orange {
+  background-color: #FF4820;
+}
+
+.ratio-223x234 {
+  --bs-aspect-ratio: calc(234 / 223 * 100%);
+}

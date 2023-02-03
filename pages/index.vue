@@ -1,13 +1,15 @@
 <template>
-  <div class="">
-    <custom-navbar/>
+  <div class="custom-bg-color">
+    <hero-section/>
   </div>
 </template>
 
 <script>
 import CustomNavbar from "~/components/CustomNavbar";
+import HeroSection from "@/components/HeroSection";
+
 export default {
   name: 'IndexPage',
-  components: {CustomNavbar}
+  components: {HeroSection, CustomNavbar}
 }
 </script>

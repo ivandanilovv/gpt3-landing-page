@@ -1,6 +1,6 @@
 <template>
-  <div class="py-5 custom-bg-color text-white">
-    <div class="container">
+  <div class="pt-5 text-white">
+    <div class="container ps-0">
       <nav class="navbar navbar-expand-lg">
         <div class="container">
           <img src="../assets/images/custom-navbar/logo.svg" alt="Logo image" width="62.56" height="16.02"/>
@@ -14,7 +14,7 @@
                id="navbarSupportedContent">
             <ul class="navbar-nav text-center flex-column flex-lg-row justify-content-center align-items-center">
               <li class="nav-item" v-for="(item, i) in navbarItems">
-                <a class="nav-link navbar-items-font ps-0 ps-lg-5 text-white" :class="{'active' : i === 0}"
+                <a class="nav-link navbar-items-font ps-0 ps-lg-4 ps-xl-5 text-white" :class="{'active' : i === 0}"
                    aria-current="page"
                    :href=item.link>
                   {{ item.text }}
@@ -25,7 +25,7 @@
               <a href="#" class="btn text-white navbar-items-font">
                 Sign in
               </a>
-              <a href="#" class="btn sign-up-button text-white navbar-items-font pt-3 ms-0 ms-lg-3">
+              <a href="#" class="btn sign-up-button text-white navbar-items-font pt-3 ms-0 ms-lg-3 button-hover">
                 Sign up
               </a>
             </div>
@@ -80,12 +80,12 @@ export default {
   background-color: #FF4820;
   width: 152px;
   height: 58px;
+  font-weight: 700;
 }
 
-.bg-orange {
-  background-color: #FF4820;
+.button-hover:hover {
+  background-color: #cc300e;
 }
-
 .navbar-nav {
   flex-direction: row;
 }
