@@ -36,15 +36,17 @@
         </div>
       </div>
     </div>
+    <social-media-links/>
   </div>
 </template>
 
 <script>
 import CustomNavbar from "@/components/CustomNavbar";
+import SocialMediaLinks from "@/components/SocialMediaLinks";
 
 export default {
   name: "HeroSection",
-  components: {CustomNavbar}
+  components: {SocialMediaLinks, CustomNavbar}
 }
 </script>
 
