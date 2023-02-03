@@ -4,29 +4,29 @@
       <div class="col col-12">
         <img src="../assets/images/what-is-gpt3/gradient-line.svg" alt="Line"/>
       </div>
-      <div class="col col-4">
+      <div class="col col-12 col-md-4">
         <p class="fs-4 fw-bold">
           What is GPT-3
         </p>
       </div>
-      <div class="col col-8">
+      <div class="col col-12 col-md-8">
         <p class="text-primary fw-500">
           We so opinion friends me message as delight. Whole front do of plate heard oh ought. His defective nor
           convinced residence own. Connection has put impossible own apartments boisterous. At jointure ladyship an
           insisted so humanity he. Friendly bachelor entrance to on by.
         </p>
       </div>
-      <div class="col col-6 pt-5">
-        <h2 class="text-gradient fw-bold">
+      <div class="col col-12 col-md-6 pt-5">
+        <h2 class="text-gradient fw-bold text-center text-md-start">
           The possibilities are beyond<br/> your imagination
         </h2>
       </div>
-      <div class="col col-6 d-flex flex-row align-items-center justify-content-end">
+      <div class="col col-12 col-md-6 d-flex flex-row align-items-center justify-content-center justify-content-md-end">
         <p class="p-custom-color fw-500">
           Explore The Library
         </p>
       </div>
-      <div class="col col-4 pt-5" v-for="item in items">
+      <div class="col col-lg-4 pt-5" v-for="item in items">
         <img src="../assets/images/what-is-gpt3/gradient-line.svg" alt="Line"/>
         <p class="fs-4 fw-bold">
           {{ item.header }}

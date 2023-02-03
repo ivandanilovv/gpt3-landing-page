@@ -44,7 +44,7 @@ import CustomNavbar from "@/components/CustomNavbar";
 
 export default {
   name: "HeroSection",
-  components: {WhatIsGPT3, SocialMediaLinks, CustomNavbar}
+  components: {CustomNavbar}
 }
 </script>
 
