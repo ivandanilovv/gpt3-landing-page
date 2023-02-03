@@ -14,6 +14,10 @@ $primary: #81AFDD;
   --bs-aspect-ratio: calc(234 / 223 * 100%);
 }
 
+.ratio-273x304 {
+  --bs-aspect-ratio: calc(304 / 273 * 100%);
+}
+
 .text-gradient {
   background-image: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
   -webkit-background-clip: text;

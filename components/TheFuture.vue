@@ -15,12 +15,12 @@
             <img src="../assets/images/what-is-gpt3/gradient-line.svg" alt="Line"/>
           </div>
           <div class="col-5">
-            <p class="fs-4 test">
+            <p class="fs-4 header-font-size">
               {{ item.header }}
             </p>
           </div>
           <div class="col col-7">
-            <p class="text-primary">
+            <p class="text-primary fs-7">
               {{ item.text }}
             </p>
           </div>
@@ -68,11 +68,14 @@ h2 {
   font-weight: 800;
 }
 
-.test {
+.header-font-size {
   font-size: 18px;
   font-weight: 800;
 }
 
+.fs-7 {
+  font-size: 14px;
+}
 .p-custom-color {
   color: #FF8A71;
 }
