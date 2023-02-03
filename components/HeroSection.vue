@@ -15,11 +15,13 @@
             everything joy alteration boisterous the attachment. Party<br/>
             we years to order allow asked of.
           </p>
-          <input type="text" placeholder="Your Email Address" name="email"
-                 class="w-65 ps-3 py-3 border-0 rounded-start input-bg-color p-custom-font"/>
-          <a href="#" class="btn bg-orange w-34 button-custom-font">
-            Get Started
-          </a>
+          <div class="d-flex flex-row">
+            <input type="text" placeholder="Your Email Address" name="email"
+                   class="w-65 ps-3 py-2 border-0 rounded-start input-bg-color p-custom-font"/>
+            <a href="#" class="btn bg-orange w-34 button-custom-font border-0 rounded-0 rounded-end">
+              Get Started
+            </a>
+          </div>
           <div class="d-flex flex-row align-items-center justify-content-start pt-3">
             <img src="../assets/images/hero-section/people.svg" alt="People" width="182" height="38"/>
             <p class="p-0 m-0 fs-7">
@@ -88,19 +90,19 @@ export default {
 .bg-custom-gradient {
 
   /* ff 3.6+ */
-  background:-moz-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+  background: -moz-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
 
   /* safari 5.1+,chrome 10+ */
-  background:-webkit-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+  background: -webkit-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
 
   /* opera 11.10+ */
-  background:-o-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+  background: -o-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
 
   /* ie 10+ */
-  background:-ms-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+  background: -ms-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
 
   /* global 92%+ browsers support */
-  background:radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+  background: radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
 
 }
 
