@@ -1,0 +1,79 @@
+<template>
+  <div class="container py-5 text-white">
+    <div class="row">
+      <div class="col col-5">
+        <h2 class="text-gradient pb-3">
+          The Future is Now and You Just Need To Realize It. Step into Future Today & Make it Happen.
+        </h2>
+        <p class="p-custom-color fw-500 pt-5">
+          Request Early Access to Get Started
+        </p>
+      </div>
+      <div class="col col-6 offset-1">
+        <div class="row" v-for="item in factsItems">
+          <div class="col col-12">
+            <img src="../assets/images/what-is-gpt3/gradient-line.svg" alt="Line"/>
+          </div>
+          <div class="col-5">
+            <p class="fs-4 test">
+              {{ item.header }}
+            </p>
+          </div>
+          <div class="col col-7">
+            <p class="text-primary">
+              {{ item.text }}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "TheFuture",
+  data() {
+    return {
+      factsItems: [
+        {
+          header: 'Improving end distrusts instantly ',
+          text: `From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may
+          instantly was household applauded.`,
+        },
+        {
+          header: 'Become the tended active',
+          text: `Considered sympathize ten uncommonly occasional assistance sufficient not. Letter of on become he
+           tended active enable to.`,
+        },
+        {
+          header: 'Message or am nothing',
+          text: `Led ask possible mistress relation elegance eat likewise debating. By message or am nothing
+          amongst chiefly address.`,
+        },
+        {
+          header: 'Really boy law county',
+          text: `Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law
+          built now. In built table in an rapid blush.`,
+        },
+      ]
+    }
+  }
+}
+</script>
+
+<style scoped>
+h2 {
+  font-size: 34px;
+  font-weight: 800;
+}
+
+.test {
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.p-custom-color {
+  color: #FF8A71;
+}
+</style>

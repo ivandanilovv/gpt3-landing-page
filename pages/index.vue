@@ -3,6 +3,7 @@
     <hero-section/>
     <social-media-links/>
     <what-is-g-p-t3/>
+    <the-future/>
   </div>
 </template>
 
@@ -11,9 +12,10 @@ import CustomNavbar from "~/components/CustomNavbar";
 import HeroSection from "@/components/HeroSection";
 import WhatIsGPT3 from "@/components/WhatIsGPT3";
 import SocialMediaLinks from "@/components/SocialMediaLinks";
+import TheFuture from "@/components/TheFuture";
 
 export default {
   name: 'IndexPage',
-  components: {SocialMediaLinks, WhatIsGPT3, HeroSection, CustomNavbar}
+  components: {TheFuture, SocialMediaLinks, WhatIsGPT3, HeroSection, CustomNavbar}
 }
 </script>
