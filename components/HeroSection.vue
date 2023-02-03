@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-custom-gradient">
+  <div class="">
     <custom-navbar/>
     <div class="container text-white">
       <div class="row">
@@ -36,17 +36,15 @@
         </div>
       </div>
     </div>
-    <social-media-links/>
   </div>
 </template>
 
 <script>
 import CustomNavbar from "@/components/CustomNavbar";
-import SocialMediaLinks from "@/components/SocialMediaLinks";
 
 export default {
   name: "HeroSection",
-  components: {SocialMediaLinks, CustomNavbar}
+  components: {WhatIsGPT3, SocialMediaLinks, CustomNavbar}
 }
 </script>
 
@@ -84,25 +82,6 @@ export default {
 
 .button-hover:hover {
   background-color: #cc300e;
-}
-
-.bg-custom-gradient {
-
-  /* ff 3.6+ */
-  background: -moz-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
-
-  /* safari 5.1+,chrome 10+ */
-  background: -webkit-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
-
-  /* opera 11.10+ */
-  background: -o-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
-
-  /* ie 10+ */
-  background: -ms-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
-
-  /* global 92%+ browsers support */
-  background: radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
-
 }
 
 </style>
