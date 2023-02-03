@@ -1,16 +1,16 @@
 <template>
   <div class="container py-5">
     <div class="row">
-      <div class="col col-6 d-flex flex-row align-items-center justify-content-center">
+      <div class="col col-12 col-md-6 d-flex flex-row align-items-center justify-content-center">
         <div class="ratio ratio-273x304">
-        <img src="../assets/images/the-possibilities/girl-vr.svg" alt="Girl"/>
+          <img src="../assets/images/the-possibilities/girl-vr.svg" alt="Girl"/>
         </div>
       </div>
-      <div class="col col-5 d-flex flex-column align-items-start justify-content-center pt-5 mt-5">
+      <div class="col col-12 col-md-5 pt-5 mt-md-5 text-center text-md-start d-flex flex-column justify-content-center">
         <p class="paragraph-custom-color">
           Request Early Access to Get Started
         </p>
-        <h2 class="text-gradient pb-lg-3 text-center text-lg-start">
+        <h2 class="text-gradient pb-lg-3">
           The possibilities are<br/> beyond your imagination
         </h2>
         <p class="text-primary fs-6">
