@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-custom-gradient">
+  <div class="">
     <custom-navbar/>
     <div class="container text-white">
       <div class="row">
@@ -9,7 +9,7 @@
             amazing with GPT-3
             OpenAI
           </h1>
-          <p class="p-custom-font pt-5 text-center text-md-start">
+          <p class="p-custom-font text-primary pt-5 text-center text-md-start">
             Yet bed any for travelling assistance indulgence unpleasing.<br/>
             Not thoughts all exercise blessing. Indulgence way<br/>
             everything joy alteration boisterous the attachment. Party<br/>
@@ -36,17 +36,15 @@
         </div>
       </div>
     </div>
-    <social-media-links/>
   </div>
 </template>
 
 <script>
 import CustomNavbar from "@/components/CustomNavbar";
-import SocialMediaLinks from "@/components/SocialMediaLinks";
 
 export default {
   name: "HeroSection",
-  components: {SocialMediaLinks, CustomNavbar}
+  components: {CustomNavbar}
 }
 </script>
 
@@ -58,7 +56,6 @@ export default {
 .p-custom-font {
   font-size: 20px;
   font-weight: 400;
-  color: #81AFDD;
 }
 
 .button-custom-font {
@@ -83,33 +80,8 @@ export default {
   font-size: 0.75rem;
 }
 
-.text-gradient {
-  background-image: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
 .button-hover:hover {
   background-color: #cc300e;
-}
-
-.bg-custom-gradient {
-
-  /* ff 3.6+ */
-  background: -moz-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
-
-  /* safari 5.1+,chrome 10+ */
-  background: -webkit-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
-
-  /* opera 11.10+ */
-  background: -o-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
-
-  /* ie 10+ */
-  background: -ms-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
-
-  /* global 92%+ browsers support */
-  background: radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
-
 }
 
 </style>
