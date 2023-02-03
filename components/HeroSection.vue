@@ -9,7 +9,7 @@
             amazing with GPT-3
             OpenAI
           </h1>
-          <p class="p-custom-font pt-5 text-center text-md-start">
+          <p class="p-custom-font text-primary pt-5 text-center text-md-start">
             Yet bed any for travelling assistance indulgence unpleasing.<br/>
             Not thoughts all exercise blessing. Indulgence way<br/>
             everything joy alteration boisterous the attachment. Party<br/>
@@ -58,7 +58,6 @@ export default {
 .p-custom-font {
   font-size: 20px;
   font-weight: 400;
-  color: #81AFDD;
 }
 
 .button-custom-font {
@@ -81,12 +80,6 @@ export default {
 
 .fs-7 {
   font-size: 0.75rem;
-}
-
-.text-gradient {
-  background-image: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 .button-hover:hover {
