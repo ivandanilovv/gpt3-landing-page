@@ -80,6 +80,7 @@ export default {
   background-color: #FF4820;
   width: 152px;
   height: 58px;
+  font-weight: 700;
 }
 
 .button-hover:hover {
