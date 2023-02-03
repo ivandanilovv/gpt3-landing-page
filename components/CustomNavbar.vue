@@ -1,6 +1,6 @@
 <template>
-  <div class="py-5 custom-bg-color text-white">
-    <div class="container">
+  <div class="pt-5 text-white">
+    <div class="container ps-0">
       <nav class="navbar navbar-expand-lg">
         <div class="container">
           <img src="../assets/images/custom-navbar/logo.svg" alt="Logo image" width="62.56" height="16.02"/>
@@ -80,10 +80,6 @@ export default {
   background-color: #FF4820;
   width: 152px;
   height: 58px;
-}
-
-.bg-orange {
-  background-color: #FF4820;
 }
 
 .navbar-nav {
