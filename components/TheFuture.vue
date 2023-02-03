@@ -1,15 +1,15 @@
 <template>
   <div class="container py-5 text-white">
     <div class="row">
-      <div class="col col-5">
-        <h2 class="text-gradient pb-3">
+      <div class="col col-12 col-lg-5">
+        <h2 class="text-gradient pb-lg-3 text-center text-lg-start">
           The Future is Now and You Just Need To Realize It. Step into Future Today & Make it Happen.
         </h2>
-        <p class="p-custom-color fw-500 pt-5">
+        <p class="p-custom-color fw-500 py-5 text-center text-lg-start">
           Request Early Access to Get Started
         </p>
       </div>
-      <div class="col col-6 offset-1">
+      <div class="col col-12 col-lg-6 offset-lg-1">
         <div class="row" v-for="item in factsItems">
           <div class="col col-12">
             <img src="../assets/images/what-is-gpt3/gradient-line.svg" alt="Line"/>
