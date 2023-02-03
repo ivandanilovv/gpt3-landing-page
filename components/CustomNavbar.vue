@@ -14,7 +14,7 @@
                id="navbarSupportedContent">
             <ul class="navbar-nav text-center flex-column flex-lg-row justify-content-center align-items-center">
               <li class="nav-item" v-for="(item, i) in navbarItems">
-                <a class="nav-link navbar-items-font ps-0 ps-lg-5 text-white" :class="{'active' : i === 0}"
+                <a class="nav-link navbar-items-font ps-0 ps-lg-4 ps-xl-5 text-white" :class="{'active' : i === 0}"
                    aria-current="page"
                    :href=item.link>
                   {{ item.text }}
