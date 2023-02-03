@@ -25,7 +25,7 @@
               <a href="#" class="btn text-white navbar-items-font">
                 Sign in
               </a>
-              <a href="#" class="btn sign-up-button text-white navbar-items-font pt-3">
+              <a href="#" class="btn sign-up-button text-white navbar-items-font pt-3 ms-0 ms-lg-3">
                 Sign up
               </a>
             </div>
