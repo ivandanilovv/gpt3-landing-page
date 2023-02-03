@@ -7,6 +7,7 @@
       <the-future/>
     </div>
     <the-possibilities/>
+    <register-today/>
   </div>
 </template>
 
@@ -17,9 +18,10 @@ import WhatIsGPT3 from "@/components/WhatIsGPT3";
 import SocialMediaLinks from "@/components/SocialMediaLinks";
 import TheFuture from "@/components/TheFuture";
 import ThePossibilities from "@/components/ThePossibilities";
+import RegisterToday from "@/components/RegisterToday";
 
 export default {
   name: 'IndexPage',
-  components: {ThePossibilities, TheFuture, SocialMediaLinks, WhatIsGPT3, HeroSection, CustomNavbar}
+  components: {RegisterToday, ThePossibilities, TheFuture, SocialMediaLinks, WhatIsGPT3, HeroSection, CustomNavbar}
 }
 </script>
