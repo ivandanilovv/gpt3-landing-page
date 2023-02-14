@@ -1,4 +1,5 @@
 $primary: #81AFDD;
+$secondary: #042C54;
 
 @import "~bootstrap/scss/bootstrap";
 
@@ -16,6 +17,10 @@ $primary: #81AFDD;
 
 .ratio-273x304 {
   --bs-aspect-ratio: calc(304 / 273 * 100%);
+}
+
+.ratio-41x18 {
+  --bs-aspect-ratio: calc(18 / 41 * 100%);
 }
 
 .text-gradient {
