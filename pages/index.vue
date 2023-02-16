@@ -9,21 +9,33 @@
     <the-possibilities/>
     <register-today/>
     <blog/>
+    <custom-footer/>
   </div>
 </template>
 
 <script>
-import CustomNavbar from "~/components/CustomNavbar";
-import HeroSection from "@/components/HeroSection";
-import WhatIsGPT3 from "@/components/WhatIsGPT3";
-import SocialMediaLinks from "@/components/SocialMediaLinks";
-import TheFuture from "@/components/TheFuture";
-import ThePossibilities from "@/components/ThePossibilities";
-import RegisterToday from "@/components/RegisterToday";
 import Blog from "@/components/Blog";
+import TheFuture from "@/components/TheFuture";
+import WhatIsGPT3 from "@/components/WhatIsGPT3";
+import HeroSection from "@/components/HeroSection";
+import CustomFooter from "@/components/CustomFooter";
+import CustomNavbar from "~/components/CustomNavbar";
+import RegisterToday from "@/components/RegisterToday";
+import SocialMediaLinks from "@/components/SocialMediaLinks";
+import ThePossibilities from "@/components/ThePossibilities";
 
 export default {
   name: 'IndexPage',
-  components: {Blog, RegisterToday, ThePossibilities, TheFuture, SocialMediaLinks, WhatIsGPT3, HeroSection, CustomNavbar}
+  components: {
+    Blog,
+    TheFuture,
+    WhatIsGPT3,
+    HeroSection,
+    CustomFooter,
+    CustomNavbar,
+    RegisterToday,
+    SocialMediaLinks,
+    ThePossibilities,
+  }
 }
 </script>
