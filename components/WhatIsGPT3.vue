@@ -17,9 +17,8 @@
         </p>
       </div>
       <div class="col col-12 col-md-6 pt-5">
-        <h2 class="text-gradient fw-bold text-center text-md-start">
-          The possibilities are beyond<br/> your imagination
-        </h2>
+        <header-two header-text="The possibilities are beyond<br/> your imagination"
+                    class="text-center text-md-start"/>
       </div>
       <div class="col col-12 col-md-6 d-flex flex-row align-items-center justify-content-center justify-content-md-end">
         <p class="p-custom-color fw-500">
@@ -40,8 +39,10 @@
 </template>
 
 <script>
+import HeaderTwo from "@/components/base/HeaderTwo";
 export default {
   name: "WhatIsGPT3",
+  components: {HeaderTwo},
   data() {
     return {
       items: [
@@ -70,10 +71,6 @@ export default {
 
 .fw-bold {
   font-weight: 800 !important;
-}
-
-h2 {
-  font-size: 34px;
 }
 
 .p-custom-color {

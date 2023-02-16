@@ -2,9 +2,9 @@
   <div class="container py-5 text-white">
     <div class="row">
       <div class="col col-12 col-lg-5">
-        <h2 class="text-gradient pb-lg-3 text-center text-lg-start">
-          The Future is Now and You Just Need To Realize It. Step into Future Today & Make it Happen.
-        </h2>
+        <header-two
+          header-text="The Future is Now and You Just Need To Realize It. Step into Future Today & Make it Happen."
+          class="pb-lg-3 text-center text-lg-start"/>
         <p class="p-custom-color fw-500 py-5 text-center text-lg-start">
           Request Early Access to Get Started
         </p>
@@ -31,8 +31,10 @@
 </template>
 
 <script>
+import HeaderTwo from "@/components/base/HeaderTwo";
 export default {
   name: "TheFuture",
+  components: {HeaderTwo},
   data() {
     return {
       factsItems: [

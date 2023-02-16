@@ -10,9 +10,7 @@
         <p class="paragraph-custom-color">
           Request Early Access to Get Started
         </p>
-        <h2 class="text-gradient pb-lg-3">
-          The possibilities are<br/> beyond your imagination
-        </h2>
+        <header-two header-text="The possibilities are<br/> beyond your imagination" class="pb-lg-3"/>
         <p class="text-primary fs-6">
           Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing. Indulgence
           way everything joy alteration boisterous the attachment. Party we years to order allow asked of.
@@ -26,8 +24,10 @@
 </template>
 
 <script>
+import HeaderTwo from "@/components/base/HeaderTwo";
 export default {
-  name: "ThePossibilities"
+  name: "ThePossibilities",
+  components: {HeaderTwo}
 }
 </script>
 
@@ -38,10 +38,5 @@ export default {
 
 .paragraph-custom-color2 {
   color: #FF8A71;
-}
-
-h2 {
-  font-size: 34px;
-  font-weight: 800;
 }
 </style>
