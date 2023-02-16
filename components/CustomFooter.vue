@@ -1,11 +1,11 @@
 <template>
-  <div class="bg-secondary py-5">
+  <div class="bg-secondary pt-5">
     <div class="container">
       <div class="d-flex flex-column justify-content-center align-items-center text-center py-5">
         <h1 class="text-gradient mt-5">
           Do you want to step in to the<br/> future before others
         </h1>
-        <button class="btn btn-outline-light rounded-0 fs-4 mt-5 p-3">
+        <button class="btn btn-outline-light rounded-0 fs-4 my-5 p-3">
           Request Early Access
         </button>
       </div>
@@ -34,6 +34,9 @@
           </ul>
         </div>
       </div>
+      <p class="text-white text-center m-0 pb-1">
+        &copy;2023 Ivan Danilov. All rights reserved.
+      </p>
     </div>
   </div>
 </template>
