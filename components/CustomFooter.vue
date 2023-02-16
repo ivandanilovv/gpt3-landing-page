@@ -3,7 +3,7 @@
     <div class="container">
       <div class="d-flex flex-column justify-content-center align-items-center text-center py-5">
         <header-one header-text="Do you want to step in to the<br/> future before others" class="mt-5 mb-0 pb-5"/>
-        <a href="#" class="btn btn-outline-light rounded-0 fs-4 my-5 p-3">
+        <a href="#" class="btn btn-outline-light btn-hover rounded-0 fs-4 my-5 p-3">
           Request Early Access
         </a>
       </div>
@@ -100,7 +100,7 @@ ul {
   list-style: none;
 }
 
-a:hover {
+.btn-hover:hover {
   background-color: #FF8A71;
   color: white;
 }
