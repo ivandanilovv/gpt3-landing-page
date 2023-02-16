@@ -72,8 +72,8 @@ export default {
 .navbar-items-font {
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
-  line-height: 25px;
+  font-size: 1.125rem;
+  line-height: 1.5625rem;
 }
 
 .sign-up-button {

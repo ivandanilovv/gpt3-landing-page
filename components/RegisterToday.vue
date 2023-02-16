@@ -6,11 +6,11 @@
           Request Early Access to Get Started
         </p>
         <p class="fs-4 fw-800 text-center text-sm-start">
-          Register today & start exploring the endless possiblities.
+          Register today & start exploring the endless possibilities.
         </p>
       </div>
       <div class="col col-12 col-sm-3 d-flex flex-column justify-content-center align-items-end">
-        <button class="btn btn-dark p-0 py-2 rounded-5 fs-6 me-lg-5 custom-button-width">
+        <button class="btn btn-dark btn-hover p-0 py-2 rounded-5 fs-6 me-lg-5 custom-button-width">
           Get Started
         </button>
       </div>
@@ -31,6 +31,10 @@ export default {
 
 .btn-dark {
   background-color: black;
+}
+
+.btn-hover:hover {
+  background-color: #4d5154;
 }
 
 .bg-purple-gradient {

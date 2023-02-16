@@ -1,9 +1,7 @@
 <template>
   <div class="container py-5">
-    <h1 class="text-gradient m-0 py-2 text-center text-lg-start">
-      A lot is happening,<br/>
-      We are blogging about it.
-    </h1>
+    <header-one header-text="A lot is happening,<br/> We are blogging about it."
+                class="m-0 py-2 text-center text-lg-start"/>
     <div class="row my-2">
       <div v-for="cardDetails in blogCards" class="col col-12 col-md-6 col-lg-4">
         <blog-card :card-details="cardDetails"/>
@@ -14,9 +12,14 @@
 
 <script>
 import BlogCard from "@/components/BlogCard";
+import HeaderOne from "@/components/base/HeaderOne";
+
 export default {
   name: "Blog",
-  components: {BlogCard},
+  components: {
+    BlogCard,
+    HeaderOne
+  },
   data() {
     return {
       blogCards: [
@@ -48,8 +51,5 @@ export default {
 </script>
 
 <style scoped>
-h1 {
-  font-size: 62px;
-  font-weight: 800;
-}
+
 </style>

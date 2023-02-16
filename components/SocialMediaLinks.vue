@@ -1,9 +1,7 @@
 <template>
   <div class="d-none d-sm-flex flex-row align-items-center justify-content-center py-5">
     <a href="#" v-for="(image, i) in images">
-<!--      <div class="ratio ratio-16x9">-->
-        <img :src="image.src" :alt="image.alt" :class="{'ps-sm-3 ps-md-5' : i !== 0}">
-<!--      </div>-->
+      <img :src="image.src" :alt="image.alt" :class="{'ps-sm-3 ps-md-5' : i !== 0}">
     </a>
   </div>
 </template>

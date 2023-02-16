@@ -4,11 +4,8 @@
     <div class="container text-white">
       <div class="row">
         <div class="col-12 col-xl-6 pt-5">
-          <h1 class="h1-custom-font-size text-gradient text-center text-md-start">
-            Let’s Build Something
-            amazing with GPT-3
-            OpenAI
-          </h1>
+          <header-one header-text="Let’s Build Something amazing with GPT-3 OpenAI"
+                      class="fw-bold text-center text-md-start"/>
           <p class="p-custom-font text-primary pt-5 text-center text-md-start">
             Yet bed any for travelling assistance indulgence unpleasing.<br/>
             Not thoughts all exercise blessing. Indulgence way<br/>
@@ -40,26 +37,26 @@
 </template>
 
 <script>
+import HeaderOne from "@/components/base/HeaderOne";
 import CustomNavbar from "@/components/CustomNavbar";
 
 export default {
   name: "HeroSection",
-  components: {CustomNavbar}
+  components: {
+    HeaderOne,
+    CustomNavbar
+  }
 }
 </script>
 
 <style scoped>
-.h1-custom-font-size {
-  font-size: 3.75rem;
-}
-
 .p-custom-font {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 400;
 }
 
 .button-custom-font {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 700;
   color: white;
 }
