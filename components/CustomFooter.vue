@@ -2,9 +2,7 @@
   <div class="bg-secondary pt-5">
     <div class="container">
       <div class="d-flex flex-column justify-content-center align-items-center text-center py-5">
-        <h1 class="text-gradient mt-5 mb-0 pb-5">
-          Do you want to step in to the<br/> future before others
-        </h1>
+        <header-one header-text="Do you want to step in to the<br/> future before others" class="mt-5 mb-0 pb-5"/>
         <button class="btn btn-outline-light rounded-0 fs-4 my-5 p-3">
           Request Early Access
         </button>
@@ -42,8 +40,10 @@
 </template>
 
 <script>
+import HeaderOne from "@/components/base/HeaderOne";
 export default {
   name: "CustomFooter",
+  components: {HeaderOne},
   data() {
     return {
       footerItems: [
