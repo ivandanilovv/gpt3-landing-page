@@ -11,12 +11,8 @@
           Request Early Access to Get Started
         </p>
         <header-two header-text="The possibilities are<br/> beyond your imagination" class="pb-lg-3"/>
-        <p class="text-primary fs-6">
-          Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing. Indulgence
-          way everything joy alteration boisterous the attachment. Party we years to order allow asked of.
-        </p>
-        <p class="paragraph-custom-color2">
-          Request Early Access to Get Started
+        <p v-for="paragraph in paragraphs" :class="paragraph.classes">
+          {{ paragraph.text }}
         </p>
       </div>
     </div>
@@ -25,9 +21,27 @@
 
 <script>
 import HeaderTwo from "@/components/base/HeaderTwo";
+
 export default {
   name: "ThePossibilities",
-  components: {HeaderTwo}
+  components: {
+    HeaderTwo
+  },
+  data() {
+    return {
+      paragraphs: [
+        {
+          text: `Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing.
+            Indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of.`,
+          classes: 'text-primary'
+        },
+        {
+          text: `Request Early Access to Get Started`,
+          classes: 'paragraph-custom-color2'
+        }
+      ]
+    }
+  }
 }
 </script>
 

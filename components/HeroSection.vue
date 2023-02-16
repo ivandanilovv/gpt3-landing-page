@@ -37,27 +37,26 @@
 </template>
 
 <script>
-import CustomNavbar from "@/components/CustomNavbar";
 import HeaderOne from "@/components/base/HeaderOne";
+import CustomNavbar from "@/components/CustomNavbar";
 
 export default {
   name: "HeroSection",
-  components: {HeaderOne, CustomNavbar}
+  components: {
+    HeaderOne,
+    CustomNavbar
+  }
 }
 </script>
 
 <style scoped>
-.h1-custom-font-size {
-  font-size: 3.75rem;
-}
-
 .p-custom-font {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 400;
 }
 
 .button-custom-font {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 700;
   color: white;
 }
